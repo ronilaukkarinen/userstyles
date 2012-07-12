@@ -1,0 +1,10 @@
+/* hides menubar from Songbird. */
+window menubar, menubar {
+display:none;
+}
+
+/* Use only if not using More Gonzo -feather: */
+
+/*window {
+margin-top:-23px;
+}*/

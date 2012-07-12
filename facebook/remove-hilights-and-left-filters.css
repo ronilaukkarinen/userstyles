@@ -1,0 +1,58 @@
+/* THIS IS NOT BY ME. DETAILS BELOW! */
+
+/*
+ * Author: oilyflutesalad
+ * Created: 15th March 2009
+ *
+ * Description:
+ *  Removes the highlights panel, sidebar ads/sponsors and
+ *  the left filters panel from the new Facebook homepage,
+ *  expanding the news stream to fill the space.
+ *
+ * Last updates:
+ *  [03/04/09] Updated code, now removes the Highlights title too!
+ *  [02/04/09] Removed redundant code (ignore button no longer exists)
+ *             Added code to hide the "Sponsored" section
+ *  [25/03/09] Added some code to remove ads - thanks Jonathon
+ *  Fixed the "ignore button" by moving it to the bottom.
+*/
+
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("facebook.com") {
+	/* Remove Highlights */
+	#home_sidebar > DIV:first-child + DIV + DIV + DIV
+	{
+		display: none !important;
+	}
+
+	/* Remove Sponsors */
+	.UIHomeBox_Sponsored
+	{
+	display: none !important;
+	}
+
+	/* Remove the left filter list */
+	#home_filter_list
+	{
+		display: none !important;
+	}
+
+	/* Resize stream container */
+	#home_left_column, #home_stream
+	{
+		width: 656px !important;
+	}
+
+	/* Resize messages */
+	#home_left_column #home_stream .UIStream .UIStory h3.UIIntentionalStory_Message
+	{
+		width: 591px !important;
+	}
+
+	/* Remove Ads on Wall page */
+	#sidebar_ads div
+	{
+		display:none;
+	}
+}

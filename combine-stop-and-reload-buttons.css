@@ -1,0 +1,6 @@
+/* THIS IS NOT BY ME. */
+
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+#stop-button[disabled="true"] { display:none; } 
+#stop-button:not([disabled]) + #reload-button { display:none; }

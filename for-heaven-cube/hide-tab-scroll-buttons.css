@@ -1,0 +1,8 @@
+/* hide tab scroll arrowbuttons from HEAVEN.CUBE-ff-theme:
+https://addons.mozilla.org/en-US/firefox/addon/8218 */
+
+.tabs-alltabs-stack,
+.tabs-closebutton-box,
+.scrollbutton-up, .scrollbutton-down, .scrollbutton-down-stack {
+display: none !important;
+}

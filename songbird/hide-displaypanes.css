@@ -1,0 +1,6 @@
+#displaypane_contentpane_bottom_splitter,
+#displaypane_contentpane_bottom,
+#displaypane_right_sidebar_splitter,
+#displaypane_right_sidebar {
+ display:none !important;
+}

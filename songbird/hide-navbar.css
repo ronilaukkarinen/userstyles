@@ -1,0 +1,19 @@
+/* hides Songbird navigation bar. */
+
+#nav-bar {
+height: 0px !important;
+min-height: 0px !important;
+overflow: hidden !important;
+border:0 !important;
+display:none;
+}
+
+#nav-bar:hover,
+#nav-bar:focus,
+#nav-bar:active {
+height: auto !important;
+border:0 !important;
+}
+#main-bar {
+display:none;
+}

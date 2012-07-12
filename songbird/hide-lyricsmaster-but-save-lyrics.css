@@ -1,0 +1,2 @@
+/* sidebar has to be 208px wide! */
+#displaypane_right_sidebar, #displaypane_right_sidebar_splitter { position:absolute !important; left:-1000px; margin:0 -208px 0 0 !important; }

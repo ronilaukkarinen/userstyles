@@ -1,0 +1,12 @@
+menubar > menu {
+color:#666666 !important;
+font-size:11px !important;
+margin:4px 2px 4px 2px!important;
+}
+#toolbar-menubar {
+padding:0 !important;
+margin:0 !important;
+}
+#throbbler {
+display:none;
+}

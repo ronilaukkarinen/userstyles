@@ -1,0 +1,4 @@
+/* hides Focus Track -addon -icon from statusbar. */
+#focusTrackIcon {
+display:none;
+}

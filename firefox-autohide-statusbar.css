@@ -1,0 +1,7 @@
+#status-bar:not(:hover) {margin-bottom:-20px;}
+#statusbar-display[label*="."], #statusbar-display[label*="."] ~ * {
+margin-bottom:20px;
+}
+#status-bar {
+
+}

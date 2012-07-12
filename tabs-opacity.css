@@ -1,0 +1,14 @@
+.tab-text {
+text-align: left !important;
+}
+#content tab {
+}
+#content tab:not([selected="true"]) {
+-moz-opacity: 0.50 !important;
+}
+#content tab:not([selected="true"]) .tab-middle {
+-moz-opacity: 0.50 !important;
+}
+#content tab:hover {
+-moz-opacity: 0.99 !important;
+}

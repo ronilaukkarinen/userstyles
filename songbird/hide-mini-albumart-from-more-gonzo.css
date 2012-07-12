@@ -1,0 +1,6 @@
+/* hides mini-album-art from More Gonzo -feather. */
+
+#faceplate-album-art {
+border:1px solid red;
+display:none;
+}

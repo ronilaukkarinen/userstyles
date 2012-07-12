@@ -1,0 +1,16 @@
+artist, album {
+-moz-border-radius:7px !important;
+}
+album[selected], artist[selected] {
+background:#202020 !important;
+}
+artist:hover, album:hover {
+background:#313131 !important;
+}
+view {
+background:#292929 !important;
+}
+.artistName, .moreInfo {
+color:#606060 !important;
+}
+artist[selected] .borderCanvas { display:none !important; }

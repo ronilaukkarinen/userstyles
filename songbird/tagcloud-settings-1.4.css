@@ -1,0 +1,9 @@
+#cloud-box {
+padding:0 0 15px 0 !important;
+}
+#cloud-box input  {
+width:100px !important;
+}
+.cloud span.selected {
+font-weight:bolder !important;
+}
